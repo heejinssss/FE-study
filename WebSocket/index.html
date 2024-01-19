@@ -1,0 +1,16 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4>How to use WebSocket</h4>
+    <button id="send" onclick="socket.send('Hello')">send</button>
+    <!--WebSocket connection request-->
+    <script>
+      let socket = new WebSocket("ws://localhost:8081");
+    </script>
+    <!--WebSocket connection request-->
+  </body>
+</html>
