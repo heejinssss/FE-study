@@ -70,12 +70,11 @@ const socket = new WebSocket.Server({
   <body>
     <h4>How to use WebSocket</h4>
     <button id="send">send</button>
-		<html lang="en">
-		<!-- 웹소켓 커넥션 요청 -->
+    <!-- 웹소켓 커넥션 요청 -->
     <script>
       let socket = new WebSocket("ws://localhost:8081");
     </script>
-		<!-- 웹소켓 커넥션 요청 -->
+    <!-- 웹소켓 커넥션 요청 -->
   </body>
 </html>
 ```
@@ -121,11 +120,11 @@ socket.on("connection", (ws, req) => {
   <body>
     <h4>How to use WebSocket</h4>
     <button id="send" onclick="socket.send('Hello')">send</button>
-		<!-- 웹소켓 커넥션 요청 -->
+    <!-- 웹소켓 커넥션 요청 -->
     <script>
       let socket = new WebSocket("ws://localhost:8081");
     </script>
-		<!-- 웹소켓 커넥션 요청 -->
+    <!-- 웹소켓 커넥션 요청 -->
   </body>
 </html>
 ```
